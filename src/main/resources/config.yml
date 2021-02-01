@@ -1,0 +1,5 @@
+lobby-world-name: "world"
+door-cooldown: 30
+trapdoor-cooldown: 30
+fence-gate-cooldown: 30
+lever-cooldown: 30
