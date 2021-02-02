@@ -1,6 +1,6 @@
 name: ActiveLobby
 version: ${project.version}
-main: dev.majek.activelobby.ActiveLobby
+main: dev.majek.activelobby.Persistence
 api-version: 1.13
 authors: [ Majekdor ]
 description: Allow players to change decorative blocks like doors, trapdoors, etc. and have the blocks return to their original state.
