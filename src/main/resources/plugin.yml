@@ -1,15 +1,9 @@
 name: ActiveLobby
 version: ${project.version}
 main: dev.majek.activelobby.ActiveLobby
-api-version: 1.16
+api-version: 1.13
 authors: [ Majekdor ]
 description: Allow players to change decorative blocks like doors, trapdoors, etc. and have the blocks return to their original state.
 website: https://majek.dev/ActiveLobby
-commands:
-  setlobbyworld:
-    description: Set the lobby world the plugin will keep active.
-  checkmap:
-    description: Check the maps value for you current location.
-  revert:
-    description: Revert lobby to default state.
+
 

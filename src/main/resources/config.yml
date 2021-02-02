@@ -1,4 +1,7 @@
+# Name of the world where persistence should be active
 lobby-world-name: "world"
+
+# Cooldowns (in seconds) for every block persistence affects
 door-cooldown: 30
 trapdoor-cooldown: 30
 fence-gate-cooldown: 30

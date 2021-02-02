@@ -2,10 +2,10 @@ package dev.majek.activelobby;
 
 public enum Interactable {
 
-    DOOR(ActiveLobby.getInstance().getConfig().getInt("door-cooldown")),
-    TRAPDOOR(ActiveLobby.getInstance().getConfig().getInt("trapdoor-cooldown")),
-    FENCE_GATE(ActiveLobby.getInstance().getConfig().getInt("fence-gate-cooldown")),
-    LEVER(ActiveLobby.getInstance().getConfig().getInt("lever-cooldown"));
+    DOOR(Persistence.getInstance().getConfig().getInt("door-cooldown")),
+    TRAPDOOR(Persistence.getInstance().getConfig().getInt("trapdoor-cooldown")),
+    FENCE_GATE(Persistence.getInstance().getConfig().getInt("fence-gate-cooldown")),
+    LEVER(Persistence.getInstance().getConfig().getInt("lever-cooldown"));
 
     private final int cooldown;
 
