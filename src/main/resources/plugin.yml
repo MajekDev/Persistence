@@ -1,9 +1,12 @@
-name: ActiveLobby
+name: Persistence
 version: ${project.version}
-main: dev.majek.activelobby.Persistence
+main: dev.majek.persistence.Persistence
 api-version: 1.13
 authors: [ Majekdor ]
 description: Allow players to change decorative blocks like doors, trapdoors, etc. and have the blocks return to their original state.
-website: https://majek.dev/ActiveLobby
+website: https://majek.dev/Persistence
+commands:
+  resetall:
+    description: Reset all blocks that have been interacted with to their default state.
 
 
