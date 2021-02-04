@@ -10,7 +10,7 @@ Persistence is a simple plugin that allows players to interact with blocks, like
 - All vehicles ([What's a vehicle?](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/Vehicle.html))
 
 ### How to use
-Place the downloaded jar in your plugins folder and restart your server. The config file will now generate and you'll need to set the name of the world you want Persistence to affect. This is where you can also change the length of time before a block/vehicle reverts.
+Place the downloaded jar in your plugins folder and restart your server. The config file will now generate and you'll need to set the name of the world you want Persistence to affect. This is where you can also change the length of time before a block/vehicle reverts and a few other config options.
 
 Default config.yml:
 ```yml
@@ -45,3 +45,5 @@ track-creative: false
 ```
 
 ### Need help or have a suggestion? Join my [Discord](https://discord.gg/CGgvDUz)
+
+### Want to buy me coffee? [PayPal](https://www.paypal.com/paypalme/majekdor) (All donations of any amount are appreciated)
